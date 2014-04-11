@@ -17,6 +17,10 @@ gem "pg"
 gem "puma"
 gem "roadie"
 gem "sass-rails", "~> 4.0.2"
+gem "spree", "2.2.0"
+gem "spree_auth_devise", github: "spree/spree_auth_devise", branch: "2-2-stable"
+gem "spree_gateway",     github: "spree/spree_gateway",     branch: "2-2-stable"
+gem "spree_on_the_rocks", path: "../spree_on_the_rocks"
 gem "uglifier"
 
 group :development, :test do
