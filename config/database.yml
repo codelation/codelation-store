@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  database: codelation_store_development
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: codelation_store_test
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: codelation_store_production
+  host: localhost
