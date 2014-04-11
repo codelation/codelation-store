@@ -82,7 +82,4 @@ CodelationStore::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-
-  # Set Ember.js file to load
-  config.ember.variant = :production
 end

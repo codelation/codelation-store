@@ -31,7 +31,4 @@ CodelationStore::Application.configure do
   config.action_mailer.default_url_options = { :host => "localhost:3000" }
   config.action_mailer.asset_host = "http://localhost:3000"
   config.action_mailer.delivery_method = :letter_opener
-
-  # Set Ember.js file to load
-  config.ember.variant = :development
 end

@@ -1,5 +1,4 @@
 module ApplicationHelper
-  include LocalTimeHelper
 
   def body_class
     body_class = @body_class || "default"
